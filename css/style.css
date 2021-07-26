@@ -354,7 +354,7 @@ body {
 }
 
 .container {
-  max-width: 576px;
+  max-width: 700px;
   margin: auto;
 }
 
@@ -391,5 +391,29 @@ body {
 .li-item{
   list-style-type: none;
   margin-bottom: 70px;
+}
+
+@media(max-width: 768px){
+  .container{
+    max-width: 95%;
+  }
+}
+
+@media(max-width: 568px){
+  .container{
+    max-width: 95%;
+  }
+}
+
+@media(max-width: 480px){
+  .container{
+    max-width: 95%;
+  }
+}
+
+@media(max-width: 320px){
+  .container{
+    max-width: 95%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
