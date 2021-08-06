@@ -434,6 +434,48 @@ header {
   border-bottom: 2px solid black;
 }
 
-/* #6243AC
-#BB445D
-#A0C34C */
+@media (max-width: 768px) {
+  .container {
+    max-width: 650px;
+  }
+  .description {
+    padding: 0;
+    margin: auto;
+  }
+  .item-tittle {
+    padding-left: 0;
+  }
+  .video {
+    margin: 0;
+  }
+}
+@media (max-width: 700px) {
+  .container {
+    max-width: 570px;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    max-width: 450px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    max-width: 450px;
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    max-width: 380px;
+  }
+}
+@media (max-width: 350px) {
+  .container {
+    max-width: 310px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    max-width: 300px;
+  }
+}
